@@ -1,34 +1,48 @@
 
 .rectangle-2{
     background-color: #eff9ff;
-    display: block;
+    
 
 }
 .reasons{
-    font-family: Roboto ;
+    font-family: "Roboto" ;
     font-size: 25px;
     font-weight: bold;
     line-height: normal;
     text-align: center;
     color: #000000;
     padding-top: 50px;
-    margin: 0px;
+
 }
 .container-three{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    line-height: 25px;
-    padding-block: 3px;
+    display: grid;
+    text-align: center;
+    grid-template-columns: 1fr;
+    place-items: center;
+  
 }
 .more{
-    padding-block: 3%;
-    background-color: #f26002;
-    color: white;
-    border: 0px;
-    border-radius:18%;
+    text-align: center;
+    margin: 25px 0px 0px 0px;
+    padding-bottom: 50px;
+    button{
+        padding-block: 2%;
+        background-color: #f26002;
+        color: white;
+        border: 0px;
+        border-radius: 29%;
+    }
 }
-
+.arrow{
+    position: relative;
+    height: 0px;
+    button{
+        position:absolute;
+        left: 50%;
+        top: -13px;
+        transform: translateX(-50%);
+    }
+}
 
 
 

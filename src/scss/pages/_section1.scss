@@ -1,7 +1,7 @@
 .rectangle{
     width: auto;
     background-color: #ffffff;
-    margin-block: 5%;
+    padding: 30px;
 }
 .tips{
     color: cornflowerblue;
@@ -19,7 +19,8 @@
     border-color: darkorange;
     background-color: white;
     font-size: 21px;
-    border-radius: 16%;
-    padding-bottom: 4px;
-    border: solid;
+    border-radius: 20px;
+    border: solid 3px;
+    margin-block: 1em;
+    padding: 10px 30px;
 }
