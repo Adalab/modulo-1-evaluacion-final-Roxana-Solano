@@ -2,10 +2,9 @@
 .rectangle-2{
     background-color: #eff9ff;
     
-
 }
 .reasons{
-    font-family: "Roboto" ;
+    font-family: 'Roboto Slab';
     font-size: 25px;
     font-weight: bold;
     line-height: normal;
@@ -14,14 +13,25 @@
     padding-top: 50px;
 
 }
-.container-three{
+.container-three{ 
     display: grid;
     text-align: center;
     grid-template-columns: 1fr;
     place-items: center;
-  
+    h3{
+        font-family: "Roboto Slab";
+        font-size: 18px;
+    }
+    p{
+        font-family: 'Roboto';
+        font-size: 18px;
+        padding: 10px 20px 0px 20px;
+        margin: 0px;
+    }
 }
+
 .more{
+    font-family: "Roboto";
     text-align: center;
     margin: 25px 0px 0px 0px;
     padding-bottom: 50px;
@@ -30,16 +40,33 @@
         background-color: #f26002;
         color: white;
         border: 0px;
-        border-radius: 29%;
+        border-radius: 24px;
+        padding: 13px 28px 11px 28px;
+        font-size: 20px;
+        transition: transform 0.3s ease, background-color 0.3s ease;
+    }
+    :hover{
+        transform: scale(1.1);
+        background-color: #45a049;
     }
 }
 .arrow{
     position: relative;
     height: 0px;
     button{
-        position:absolute;
+        position: absolute;
         left: 50%;
-        top: -13px;
+        top: -18px;
+        transform: translateX(-50%);
+        background-color: white;
+        border-radius: 69%;
+        width: 40px;
+        height: 40px;
+        border: 0px;
+    }
+    img{
+        margin-left: 50%;
+        width: 20px;
         transform: translateX(-50%);
     }
 }

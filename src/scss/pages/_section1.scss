@@ -5,22 +5,30 @@
 }
 .tips{
     color: cornflowerblue;
+    font-size: 14px;
+    font-family: "Roboto";
+
 }
 .looking{
-    font-size: 30px;
+    font-size: 24px;
     text-align: left;
+     font-family: 'Roboto Slab';
+     margin: 3px;
 
 }
 .donec{
+    font-family: "Roboto";
     font-size: 18px;
+    margin-bottom: 10px;
 }
 .button{
     color: darkorange;
     border-color: darkorange;
     background-color: white;
-    font-size: 21px;
+    font-size: 20px;
     border-radius: 20px;
     border: solid 3px;
     margin-block: 1em;
     padding: 10px 30px;
+    font-family: 'Roboto';
 }
