@@ -2,6 +2,7 @@
     width: auto;
     background-color: #ffffff;
     padding: 30px;
+    
 }
 .tips{
     color: cornflowerblue;
@@ -31,4 +32,12 @@
     margin-block: 1em;
     padding: 10px 30px;
     font-family: 'Roboto';
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    
+}
+.butgo{
+    :hover{
+        transform: scale(1.1);
+        background-color: lightseagreen;
+    }
 }
