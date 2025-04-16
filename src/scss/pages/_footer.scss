@@ -44,18 +44,10 @@
         padding: 50px;
     }
 
-.book {
+    .book, .network, .end {
         padding: 0px;
         margin: 0px;
+        width: 33%;
+        margin-left: 10px;
     }
-.network{
-        padding: 0px;
-        margin: 0px;
-    }
-.end{
-        padding: 0px;
-        margin: 0px;
-    }
-   
-
 }
