@@ -38,3 +38,23 @@
     padding-block: 13px;
     font-size: 15px;
 }
+@media screen and (min-width: 481px){
+    .rectangle-3{
+        flex-direction: row-reverse;
+        padding: 50px;
+
+    .book {
+        padding: 0px;
+        margin: 0px;
+    }
+    .network{
+        padding: 0px;
+        margin: 0px;
+    }
+    .end{
+        padding: 0px;
+        margin: 0px;
+    }
+    }
+
+}
