@@ -18,6 +18,9 @@
     text-align: center;
     grid-template-columns: 1fr;
     place-items: center;
+}
+
+.box-purchase{
     h3{
         font-family: "Roboto Slab";
         font-size: 18px;
@@ -35,7 +38,7 @@
     text-align: center;
     margin: 25px 0px 0px 0px;
     padding-bottom: 50px;
-    button{
+    .more-button{
         padding-block: 2%;
         background-color: #f26002;
         color: white;
@@ -44,6 +47,7 @@
         padding: 13px 28px 11px 28px;
         font-size: 20px;
         transition: transform 0.3s ease, background-color 0.3s ease;
+        text-decoration: none;
     }
     :hover{
         transform: scale(1.1);
